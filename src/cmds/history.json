@@ -1,0 +1,43 @@
+[
+  {
+    "name": "BASH_HISTORY",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "~/.bash_history"
+      ],
+      "description": "Contents of bash history file."
+    }
+  },
+  {
+    "name": "ROOT_HISTORY",
+    "command": {
+      "cmd": "ls",
+      "args": [
+        "-la",
+        "/root/.*_history"
+      ],
+      "description": "Contents of root history file."
+    }
+  },
+  {
+    "name": "PYTHON_HISTORY",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "~/.python_history"
+      ],
+      "description": "Contents of python history file."
+    }
+  },
+  {
+    "name": "NANO_HISTORY",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "~/.nano_history"
+      ],
+      "description": "Contents of nano history file."
+    }
+  }
+]

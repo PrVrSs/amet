@@ -1,0 +1,30 @@
+[
+  {
+    "name": "NET_INFO",
+    "command": {
+      "cmd": "/sbin/ifconfig",
+      "args": [
+        "-a"
+      ],
+      "description": "Interfaces"
+    }
+  },
+  {
+    "name": "ROUTE",
+    "command": {
+      "cmd": "route",
+      "args": [],
+      "description": "Route"
+    }
+  },
+  {
+    "name": "NETSTAT",
+    "command": {
+      "cmd": "netstat",
+      "args": [
+        "-antup"
+      ],
+      "description": "Netstat"
+    }
+  }
+]

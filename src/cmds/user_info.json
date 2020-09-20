@@ -1,0 +1,66 @@
+[
+  {
+    "name": "WHOAMI",
+    "command": {
+      "cmd": "whoami",
+      "args": [],
+      "description": "Current User."
+    }
+  },
+  {
+    "name": "ID",
+    "command": {
+      "cmd": "id",
+      "args": [],
+      "description": "Current User ID."
+    }
+  },
+  {
+    "name": "ALLUSERS",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "/etc/passwd"
+      ],
+      "description": "All users."
+    }
+  },
+  {
+    "name": "ENV",
+    "command": {
+      "cmd": "env",
+      "args": [],
+      "description": "Environment."
+    }
+  },
+  {
+    "name": "SUDOERS",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "/etc/sudoers"
+      ],
+      "description": "Sudoers (privileged)."
+    }
+  },
+  {
+    "name": "SCREENS",
+    "command": {
+      "cmd": "screen",
+      "args": [
+        "-ls"
+      ],
+      "description": "List out any screens running for the current user."
+    }
+  },
+  {
+    "name": "LOGGEDIN",
+    "command": {
+      "cmd": "who",
+      "args": [
+        "-a"
+      ],
+      "description": "Logged in User Activity."
+    }
+  }
+]

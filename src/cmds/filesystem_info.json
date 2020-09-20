@@ -1,0 +1,20 @@
+[
+  {
+    "name": "MOUNT",
+    "command": {
+      "cmd": "mount",
+      "args": [],
+      "description": "Mount results"
+    }
+  },
+  {
+    "name": "FSTAB",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "/etc/fstab"
+      ],
+      "description": "fstab entries"
+    }
+  }
+]

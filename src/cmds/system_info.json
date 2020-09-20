@@ -1,0 +1,30 @@
+[
+  {
+    "name": "OS",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "/etc/issue"
+      ],
+      "description": "Operating System"
+    }
+  },
+  {
+    "name": "KERNEL",
+    "command": {
+      "cmd": "cat",
+      "args": [
+        "/proc/version"
+      ],
+      "description": "Kernel"
+    }
+  },
+  {
+    "name": "HOSTNAME",
+    "command": {
+      "cmd": "hostname",
+      "args": [],
+      "description": "Hostname"
+    }
+  }
+]

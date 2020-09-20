@@ -52,10 +52,7 @@ pub struct Amet {}
 
 impl Amet {
     pub fn run(&self) -> Result<()> {
-        dump(
-            &default_file().unwrap(),
-            &self.prepare(self.files()?)?
-        ).expect("Dump error");
+        dump(&default_file()?, &self.prepare(self.files()?)?)?;
 
         Ok(())
     }
